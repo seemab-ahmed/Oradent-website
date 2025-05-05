@@ -14,13 +14,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Skills 2 Evolve",
-  description: "Skills 2 Evolve",
+  title: "OraDent Dental Clinic",
+  description: "Ora Dent dental clinic",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en"  data-arp="">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
